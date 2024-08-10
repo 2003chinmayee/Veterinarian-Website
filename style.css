@@ -1,0 +1,231 @@
+/* navbar */
+.top_nav {
+    background-color: #f3dc2e !important;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    padding-left: 62px;
+    font-size: 20px;
+}
+#searchbox {
+    background: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+    left: 48px;
+}
+#searchbox::placeholder {
+    color: white;
+}
+#searchbutton {
+    position: relative;
+    z-index: 10;
+    background-color: #00bec9;
+    color: white;
+}
+#banner {
+    background-color: #fcc302;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    flex-wrap: wrap;
+}
+#banner-text h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 90px;
+}
+#banner-text p {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn1 {
+    background-color: #00bce9;
+    border: 2px solid #00bce9;
+    color: white;
+}
+#banner-btn2 {
+    margin-left: 20px;
+    border: 2px solid white;
+    color: white;
+}
+@media only screen and (max-width: 990px) {
+    #searchform {
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    #banner-text h1 {
+        font-size: 50px;
+    }
+    #banner {
+        padding-bottom: 80px;
+    }
+    #banner-img {
+        padding-top: 50px;
+    }
+    #banner {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    #counter-icons{
+        font-size: 30px;
+    }
+    #counterh3{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #service-text {
+        padding-top: 10% !important;
+    }
+    #service-img {
+        padding-top: 5%;
+        padding-left: 25%;
+    }
+    #counter-section {
+        height: 40vh !important;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #banner-text h1 {
+        font-size: 40px;
+    }
+    #banner {
+        padding-bottom: 80px;
+    }
+    #banner-img {
+        padding-top: 80px;
+    }
+    #main-div{
+        padding-top: 50px;
+    }
+}
+/* service */
+#service-text {
+    padding-top: 15%; 
+    height: auto;  
+}
+#service-btn {
+    background-color: #fcc302;
+    border: #fcc302;
+    color: white;
+    margin-top: 10px; 
+}
+#service-img {
+    padding: 2%; 
+    position: relative;
+}
+#dogman {
+    width: 80%;
+    height: auto; 
+    object-fit: cover;
+}
+
+
+#counter-section {
+    position: relative;
+    background-image: url(./back.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+}
+
+.upon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fcc302; /* Adjust color */
+    opacity: 0.9; /* Adjust opacity */
+    backdrop-filter: blur(10px); /* Adjust blur intensity */
+    z-index: 1;
+}
+
+#counter-section .col-md-3 {
+    position: relative;
+    z-index: 2;
+    color: white; /* Ensure text is readable */
+}
+
+#counter-icons{
+    font-size: 60px;
+}
+#main-div{
+    padding-top: 100px;
+}
+
+#blog-img{
+    padding-top:30px;
+}
+
+
+/* Centering the image above .article-detail */
+#blog-img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    padding-top: 30px;
+}
+
+@media only screen and (max-width:1045px){
+    #counter-icons{
+        display: none;
+    }
+    #counterh3{
+        display: none;
+    }
+
+
+}
+.footer{
+    padding:30px;
+    padding-left:143px;
+    padding-right: 24px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #00bce9;
+}
+
+.divf{
+    display: flex;
+    flex-direction: column;
+  
+}
+.divf a{
+   color: beige;
+  
+}
+ a{
+    text-decoration: none;
+    color: rgb(32, 93, 146);
+  
+}
+.i-color{
+    background-color: #f3dc2e;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+}
+.flst{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.fp{
+    color: beige;
+}
